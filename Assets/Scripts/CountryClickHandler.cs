@@ -2,12 +2,12 @@ using UnityEngine;
 
 public class CountryClickHandler : MonoBehaviour
 {
-    // API isteði -- ülkeye týklandýðýnda --
+    // API isteÃ°i -- Ã¼lkeye/simdilik kita/ tiklandiginda --
     string apiUrl = "https://jsonplaceholder.typicode.com/todos/1";
 
     void OnMouseDown()
     {
-        // MapInteraction sýnýfýndaki metodu çaðýrarak bu API'ye istek gönderiyoruz
+        // MapInteraction sinifindaki metodu Ã§agirarak bu API'ye istek gÃ¶nderiyoruz
         FindObjectOfType<MapInteraction>().OnCountryClicked(apiUrl);
     }
 }
